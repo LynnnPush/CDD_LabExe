@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/PracticeProject/CDD_VerilogProject/Lab3/lab3_MPadder/lab3_MPadder.srcs/sources_1/imports/new/full_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/PracticeProject/CDD_VerilogProject/Lab3/lab3_MPadder/lab3_MPadder.srcs/sources_1/new/mp_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mp_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/PracticeProject/CDD_VerilogProject/Lab3/lab3_MPadder/lab3_MPadder.srcs/sources_1/imports/new/ripple_carry_adder_Nb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ripple_carry_adder_Nb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/PracticeProject/CDD_VerilogProject/Lab3/lab3_MPadder/lab3_MPadder.srcs/sim_1/new/mp_adder_TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mp_adder_TB

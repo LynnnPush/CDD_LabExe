@@ -1,0 +1,14 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+Time=0 | A=x | B=x | CarryIn=x | Sum=x | CarryOut=z
+Time=10000 | A=13604 | B=24193 | CarryIn=1 | Sum=37798 | CarryOut=z
+Time=20000 | A=22115 | B=31501 | CarryIn=1 | Sum=53617 | CarryOut=z
+Time=30000 | A=33893 | B=21010 | CarryIn=1 | Sum=54904 | CarryOut=z
+Time=40000 | A=52493 | B=61814 | CarryIn=1 | Sum=48772 | CarryOut=z
+Time=50000 | A=22509 | B=63372 | CarryIn=1 | Sum=20346 | CarryOut=z
+Time=60000 | A=9414 | B=33989 | CarryIn=0 | Sum=43403 | CarryOut=z
+Time=70000 | A=63461 | B=29303 | CarryIn=0 | Sum=27228 | CarryOut=z
+Time=80000 | A=56207 | B=27122 | CarryIn=0 | Sum=17793 | CarryOut=z
+Time=90000 | A=31464 | B=20165 | CarryIn=0 | Sum=51629 | CarryOut=z
+Time=100000 | A=10429 | B=22573 | CarryIn=1 | Sum=33003 | CarryOut=z
+$finish called at time : 110 ns : File "D:/PracticeProject/CDD_VerilogProject/Lab1/lab_1.srcs/sim_1/new/ripple_carry_adder_Nb_TB.v" Line 40

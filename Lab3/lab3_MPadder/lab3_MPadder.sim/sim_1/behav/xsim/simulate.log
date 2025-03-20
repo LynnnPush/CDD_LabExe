@@ -1,0 +1,6 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+4294967295
+4294967295
+Test Passed - Correct Addition
+$stop called at time : 400 ns : File "D:/PracticeProject/CDD_VerilogProject/Lab3/lab3_MPadder/lab3_MPadder.srcs/sim_1/new/mp_adder_TB.v" Line 68

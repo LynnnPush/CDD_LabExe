@@ -1,0 +1,11 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+D:/PracticeProject/CDD_VerilogProject/Lab2/uart1/uart1.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+D:/PracticeProject/CDD_VerilogProject/Lab2/uart1/uart1.srcs/sim_1/new/uart_rx_TB.v,1741090342,verilog,,,,uart_rx_TB,,,,,,,,
+D:/PracticeProject/CDD_VerilogProject/Lab2/uart1/uart1.srcs/sources_1/new/uart_rx.v,1742135524,verilog,,D:/PracticeProject/CDD_VerilogProject/Lab2/uart1/uart1.srcs/sources_1/new/uart_top.v,,uart_rx,,,,,,,,
+D:/PracticeProject/CDD_VerilogProject/Lab2/uart1/uart1.srcs/sources_1/new/uart_top.v,1742137210,verilog,,D:/PracticeProject/CDD_VerilogProject/Lab2/uart1/uart1.srcs/sources_1/new/uart_tx.v,,uart_top,,,,,,,,
+D:/PracticeProject/CDD_VerilogProject/Lab2/uart1/uart1.srcs/sources_1/new/uart_top_TB.v,1742133855,verilog,,,,uart_top_TB,,,,,,,,
+D:/PracticeProject/CDD_VerilogProject/Lab2/uart1/uart1.srcs/sources_1/new/uart_tx.v,1740930163,verilog,,D:/PracticeProject/CDD_VerilogProject/Lab2/uart1/uart1.srcs/sources_1/new/uart_top_TB.v,,uart_tx,,,,,,,,
+D:/PracticeProject/CDD_VerilogProject/Lab2/uart1/uart1.srcs/sources_1/new/uart_tx_TB.v,1740930176,verilog,,,,uart_tx_TB,,,,,,,,

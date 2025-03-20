@@ -1,0 +1,155 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Mar 20 11:12:48 2025
+# Process ID: 24024
+# Current directory: D:/PracticeProject/CDD_VerilogProject/Lab3/lab3_MPadder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19972 D:\PracticeProject\CDD_VerilogProject\Lab3\lab3_MPadder\lab3_MPadder.xpr
+# Log file: D:/PracticeProject/CDD_VerilogProject/Lab3/lab3_MPadder/vivado.log
+# Journal file: D:/PracticeProject/CDD_VerilogProject/Lab3/lab3_MPadder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/PracticeProject/CDD_VerilogProject/Lab3/lab3_MPadder/lab3_MPadder.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_uart_top.tcl
+current_wave_config {Untitled 1}
+add_wave {{/tb_uart_top/uart_top_inst/wResult}} {{/tb_uart_top/uart_top_inst/regResult}} {{/tb_uart_top/uart_top_inst/realResult}} {{/tb_uart_top/uart_top_inst/rBuffer}} {{/tb_uart_top/uart_top_inst/rFSM}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/tb_uart_top/uart_top_inst/MP_ADDER_INST/rFSM_current}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/tb_uart_top/uart_top_inst/MP_ADDER_INST/iStart}} 
+relaunch_sim
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/tb_uart_top/uart_top_inst/rA}} {{/tb_uart_top/uart_top_inst/rB}} 
+relaunch_sim
+current_wave_config {Untitled 1}
+add_wave {{/tb_uart_top/uart_top_inst/MP_ADDER_INST/oRes}} {{/tb_uart_top/uart_top_inst/MP_ADDER_INST/oDone}} 
+relaunch_sim
+run 10 us
+run 10 us
+relaunch_sim
+run 10 us
+run 10 us
+close_sim
+update_module_reference design_1_uart_top_0_0
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/PracticeProject/CDD_VerilogProject/Lab3/lab3_MPadder/lab3_MPadder.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/PracticeProject/CDD_VerilogProject/Lab3/lab3_MPadder/lab3_MPadder.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+close_hw_manager
+close_bd_design [get_bd_designs design_1]
+launch_simulation
+source tb_uart_top.tcl
+current_wave_config {Untitled 2}
+add_wave {{/tb_uart_top/uart_top_inst/wResult}} {{/tb_uart_top/uart_top_inst/rBuffer}} {{/tb_uart_top/uart_top_inst/rFSM}} 
+relaunch_sim
+run 10 us
+current_wave_config {Untitled 2}
+add_wave {{/tb_uart_top/uart_top_inst/adder_done}} 
+relaunch_sim
+run 10 us
+current_wave_config {Untitled 2}
+add_wave {{/tb_uart_top/uart_top_inst/MP_ADDER_INST/iStart}} {{/tb_uart_top/uart_top_inst/MP_ADDER_INST/oRes}} {{/tb_uart_top/uart_top_inst/MP_ADDER_INST/rFSM_current}} 
+relaunch_sim
+run 10 us
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top mp_adder_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source mp_adder_TB.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_uart_top [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+update_module_reference design_1_uart_top_0_0
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/PracticeProject/CDD_VerilogProject/Lab3/lab3_MPadder/lab3_MPadder.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {D:/PracticeProject/CDD_VerilogProject/Lab3/lab3_MPadder/lab3_MPadder.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+close_hw_manager
+close_bd_design [get_bd_designs design_1]
+launch_simulation
+source tb_uart_top.tcl
+current_wave_config {Untitled 4}
+add_wave {{/tb_uart_top/uart_top_inst/rBuffer}} {{/tb_uart_top/uart_top_inst/rFSM}} 
+relaunch_sim
+run 10 us
+current_wave_config {Untitled 4}
+add_wave {{/tb_uart_top/uart_top_inst/MP_ADDER_INST/oDone}} 
+relaunch_sim
+run 10 us
+current_wave_config {Untitled 4}
+add_wave {{/tb_uart_top/uart_top_inst/MP_ADDER_INST/oRes}} 
+relaunch_sim
+run 10 us
+relaunch_sim
+relaunch_sim
+run 10 us
+current_wave_config {Untitled 4}
+add_wave {{/tb_uart_top/uart_top_inst/MP_ADDER_INST/iStart}} {{/tb_uart_top/uart_top_inst/MP_ADDER_INST/iOpA}} {{/tb_uart_top/uart_top_inst/MP_ADDER_INST/iOpB}} 
+relaunch_sim
+current_wave_config {Untitled 4}
+add_wave {{/tb_uart_top/uart_top_inst/MP_ADDER_INST/rFSM_current}} 
+relaunch_sim
+run 10 us
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top mp_adder_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_uart_top [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]

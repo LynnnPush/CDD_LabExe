@@ -1,0 +1,11 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+D:/PracticeProject/CDD_VerilogProject/Lab1/lab_1.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+D:/PracticeProject/CDD_VerilogProject/Lab1/lab_1.srcs/sim_1/new/full_adder_TB.v,1739724706,verilog,,,,full_adder_tb,,,,,,,,
+D:/PracticeProject/CDD_VerilogProject/Lab1/lab_1.srcs/sim_1/new/ripple_carry_adder_4b_TB.v,1739780247,verilog,,,,ripple_carry_adder_4b_TB,,,,,,,,
+D:/PracticeProject/CDD_VerilogProject/Lab1/lab_1.srcs/sim_1/new/ripple_carry_adder_Nb_TB.v,1739783663,verilog,,,,ripple_carry_adder_Nb_tb,,,,,,,,
+D:/PracticeProject/CDD_VerilogProject/Lab1/lab_1.srcs/sources_1/new/full_adder.v,1739725061,verilog,,D:/PracticeProject/CDD_VerilogProject/Lab1/lab_1.srcs/sources_1/new/ripple_carry_adder_Nb.v,,full_adder,,,,,,,,
+D:/PracticeProject/CDD_VerilogProject/Lab1/lab_1.srcs/sources_1/new/ripple_carry_adder_4b.v,1739779355,verilog,,D:/PracticeProject/CDD_VerilogProject/Lab1/lab_1.srcs/sim_1/new/ripple_carry_adder_4b_TB.v,,ripple_carry_adder_4b,,,,,,,,
+D:/PracticeProject/CDD_VerilogProject/Lab1/lab_1.srcs/sources_1/new/ripple_carry_adder_Nb.v,1739784032,verilog,,D:/PracticeProject/CDD_VerilogProject/Lab1/lab_1.srcs/sim_1/new/ripple_carry_adder_Nb_TB.v,,ripple_carry_adder_Nb,,,,,,,,
